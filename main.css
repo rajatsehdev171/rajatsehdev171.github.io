@@ -586,10 +586,10 @@ body.header_active #header .inner-header{
     margin: 0px auto;
     margin-bottom: 1rem;
     text-rendering: optimizeLegibility;}
-#intro .row h5{    color:#D5A12F;width:100%;font-size: 20px;
+#intro .row h5{    color:dimgray;width:100%;font-size: 20px;
     text-align: center;margin:40px auto;font-weight: 500;}
 #intro .row .start-button{margin: 0 auto; text-decoration: none;
-    background-color: #efd8a8;
+    background-color: orange;
     display: block;
     width: 160px;
     text-transform: uppercase;
@@ -612,15 +612,15 @@ body.header_active #header .inner-header{
     position: absolute;
     height: 0%;
     width: 100%;
-    background-color: #C4942F;
+    background-color:darkorange;
     left: 0px;
     top: 0px;
     opacity: 0;
     transition: 1s;
 }
 .start-button:hover:after {
-    height: 100%;
-    opacity: 1;
+    height: 100%;color: white;
+    opacity: 1;background-color: darkorange;
 }
 #second-logo{width:100%;}
 @media(max-width:768px){#intro .row h5{width: 100%;font-size:13px;}
@@ -676,8 +676,8 @@ body.header_active #header .inner-header{
 #content-block-sides .row p{    width: 90%;
     letter-spacing: 1px;
     text-align: center;margin:0px auto 60px auto;}
-#content-block-sides .row .start-button1{margin: 0px auto;  display: block; padding:15px 15px;background-color: #EFD8A8;color:black;text-transform: uppercase;text-decoration: none;width: 25%;text-align: center;}
-#content-block-sides .row .start-button1:hover{background-color:#990000;color: white;}
+#content-block-sides .row .start-button1{margin: 0px auto;  display: block; padding:15px 15px;background-color:orange;color:black;text-transform: uppercase;text-decoration: none;width: 25%;text-align: center;transition: 1s;}
+#content-block-sides .row .start-button1:hover{background-color:orangered;color: white;transition: 1s;}
 
 #content-block-sides .row .side-block-left,#content-block-sides .row .side-block-right{min-height: ;}
 #carousel-example-generic{min-height: 500px;}
@@ -740,6 +740,7 @@ body.header_active #header .inner-header{
     
     #footer {background-color:white/*#F7F6F5*/; }
 #footer .footer-logo{text-align: center;}
+#footer .footer-logo img{width: 50%;margin-top: 50px;}
 #footer .row h5{text-align: center; font-size: 15px;}
 #footer .row  .foot-head .menu{margin-left: -30px;}
 #footer .row  .foot-head .menu ul li{list-style:none;padding:4px 4px;width:150px;}

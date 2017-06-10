@@ -291,11 +291,11 @@ body.header_active #header .inner-header{
     padding: 0 7px;
     letter-spacing: 0px;
     background-color: transparent;
-    border: 1px solid #c4942f;
+    border: 1px solid darkorange;
     color: #c4942f;
 }
 #header .emp_section li:last-child:hover {
-    background-color: #c4942f;
+    background-color: orange;;
     color: #fff;
 }
 #header .emp_section li:last-child:hover a {
@@ -487,7 +487,7 @@ body.header_active #header .inner-header{
 #content .BuilderIntro .capacityheading{background-color: #F48C37;}
 #content .BuilderIntro h3{text-align: center;padding:5px 5px;color:white;letter-spacing: 1px;}
 #content .BuilderIntro .row img{width:100%;max-height:400px;}
-#content .BuilderIntro .row .subheading p{text-align: center;font-family:'Dancing Script', cursive;font-size: 25px;letter-spacing: 1px;}
+#content .BuilderIntro .row .subheading p{text-align: center;font-family:'Dancing Script', cursive;font-size: 18px;letter-spacing: 1px;}
 #content .BuilderIntro .row .subheading{text-align: center;width: 100%;margin-top: 10px;}
 #content .BuilderIntro .row .subheading h4{margin: 30px auto;width: 50%;    background-color: orange;
     min-height: 30px;
@@ -498,7 +498,8 @@ body.header_active #header .inner-header{
 #capacityTutorials .row h3{}
 #capacityTutorials .row p{letter-spacing: 1px;font-family: 'Electrolize', sans-serif;margin-bottom: 45px;}
 #capacityTutorials .row img{width:100%;}
-#capacityTutorials .row a{padding:10px 10px;background-color: gray;color:white;text-decoration: none;}
+#capacityTutorials .row a{padding:10px 10px;background-color: orange;color:white;text-decoration: none;transition: 1s;}
+#capacityTutorials .row a:hover{background-color: darkorange;transition: 1s;}
 #lengthblocks .row{margin-top: 50px;}
 #lengthblocks .mentorblock {background-color: lightgray;border: 5px solid black;}   
 #lengthblocks .mentorblock img{width: 100%;max-height: 200px;padding: 10px inherit;}
@@ -512,6 +513,7 @@ body.header_active #header .inner-header{
 /* Footer ---------------------- */
  #footer {background-color:#FFFFFF;margin-top: 60px; }
 #footer .footer-logo{text-align: center;margin: 30px auto;}
+#footer .footer-logo img{width:50%;margin-top: 50px;}
 #footer .row h5{margin: 0px auto; font-size: 25px;}
 #footer .row  .foot-head .menu{margin-left: 0px;}
 #footer .row  .foot-head .menu ul{margin: 0px -35px;}
@@ -572,7 +574,7 @@ body.header_active #header .inner-header{
 .post blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 .post blockquote cite { display: block; font-size: 13px; color: #555555; }
 .post blockquote cite:before { content: "\2014 \0020"; }
-.post blockquote cite a, .post blockquote cite a:visited { color: #555555; }
+.post blockquote cite a, .post blockquote cite a:visited { color: #555555;}
 
 
 

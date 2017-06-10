@@ -531,6 +531,7 @@ body.header_active #header .inner-header{
 
   #footer {background-color:#FFFFFF;margin-top: 60px; }
 #footer .footer-logo{text-align: center;margin: 30px auto;}
+#footer .footer-logo img{width:50%;margin-top: 40px;}
 #footer .row h5{margin: 0px auto; font-size: 25px;}
 #footer .row  .foot-head .menu{margin-left: 0px;}
 #footer .row  .foot-head .menu ul{margin: 0px -35px;}
